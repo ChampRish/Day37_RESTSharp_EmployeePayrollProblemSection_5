@@ -18,3 +18,7 @@ Step 2: Run JSON server.This will create REST API for empDB
 
 step 3: Get all Employees using curl command
 -- curl -X GET -H "Contest-Type:application/json" "http://localHost:3000/employee" --
+
+Step 4: Adding New Employee Lisa.Here We notice HTTP Method POST is used as well as using-d option JSON is passed in the body
+
+-- curl -X POST-H "Content-Type:application/json" -d'{"name":"Lisa","salary":"2000"}' "http://localhost:3000/employee"  --
