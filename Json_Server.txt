@@ -17,4 +17,4 @@ Step 2: Run JSON server.This will create REST API for empDB
 -- json-server--watch empDB.json --
 
 step 3: Get all Employees using curl command
--- curl -X GET -H "Contest-Type:application/json" "http://localHost:3000/employee" --
+-- curl -X GET -H "Content-Type:application/json" "http://localHost:4000/employee/list" --
