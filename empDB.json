@@ -16,9 +16,24 @@
       "salary": "300"
     },
     {
+      "id": 4,
       "name": "Lisa",
-      "salary": "2000",
-      "id": "4"
+      "salary": "2000"
+    },
+    {
+      "id": 5,
+      "name": "Gaurav",
+      "salary": "250"
+    },
+    {
+      "id": 6,
+      "name": "Vijay",
+      "salary": "150"
+    },
+    {
+      "id": 7,
+      "name": "Sohan",
+      "salary": "350"
     }
   ]
 }
